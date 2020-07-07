@@ -6,6 +6,10 @@
     font-weight: 900;
 }
 
+.card-body .btn-secondary {
+    font-size: .9em;
+}
+
 .col-lg p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
