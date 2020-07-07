@@ -2,12 +2,26 @@
     font-family: 'Gothic A1', sans-serif;
 }
 
+.jumbotron .btn-lg {
+    background-color: rgb(15, 76, 129);
+    transition: background-color .2s ease-out;
+}
+
+.jumbotron .btn-lg:hover {
+    background-color: rgb(147, 169, 209);
+}
+
 .jumbotron h1 {
     font-weight: 900;
 }
 
 .card-body .btn-secondary {
     font-size: .9em;
+    transition: background-color .2s ease-out;
+}
+
+.card-body .btn-secondary:hover {
+    background-color: rgb(221, 65, 36);
 }
 
 .col-lg p {
