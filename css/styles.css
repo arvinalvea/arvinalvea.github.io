@@ -1,21 +1,7 @@
-
-h3 {
-    font-family: 'Playfair Display', serif;
-}
-
-.navbar .navbar-brand,
-.navbar .nav-link {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+* {
+    font-family: 'Gothic A1', sans-serif;
 }
 
 .jumbotron h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-}
-
-.jumbotron p,
-.jumbotron button {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 900;
 }
