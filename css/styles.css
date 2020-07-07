@@ -1,29 +1,50 @@
 * {
-    font-family: 'Gothic A1', sans-serif;
+    /* font-family: 'Gothic A1', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
 }
 
-.jumbotron .btn-lg {
+/* .jumbotron .btn-lg {
     background-color: rgb(15, 76, 129);
     transition: background-color .2s ease-out;
 }
 
 .jumbotron .btn-lg:hover {
     background-color: rgb(147, 169, 209);
-}
+} */
 
 .jumbotron h1 {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .card-body .btn-secondary {
     font-size: .9em;
+    background-color: rgb(15, 76, 129);
     transition: background-color .2s ease-out;
 }
 
 .card-body .btn-secondary:hover {
-    background-color: rgb(221, 65, 36);
+    background-color: rgb(147, 169, 209);
 }
 
 .col-lg p {
     font-size: 1em;
 }
+
+.socials {
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.social-div a {
+    transition: all .3s ease;
+}
+
+.social-div:hover a {
+    opacity: 0.5;
+}
+
+.social-div a:hover {
+    opacity: 1;
+}
+
