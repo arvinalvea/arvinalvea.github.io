@@ -27,7 +27,11 @@
 }
 
 .col-lg p {
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+#projects-container {
+    border-radius: 10px;
 }
 
 .socials {
@@ -47,4 +51,3 @@
 .social-div a:hover {
     opacity: 1;
 }
-
