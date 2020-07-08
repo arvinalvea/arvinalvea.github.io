@@ -3,7 +3,6 @@
 /* ============================================= */
 
 * {
-    /* font-family: 'Gothic A1', sans-serif; */
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -57,6 +56,15 @@
 
 .social-div a:hover {
     opacity: 1;
+}
+
+#contactBtn {
+    color: black;
+    transition: all .4s ease-out;
+}
+
+#contactBtn:hover {
+    color: rgb(147, 169, 209);
 }
 
 #about,
