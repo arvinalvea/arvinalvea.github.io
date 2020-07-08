@@ -1,20 +1,27 @@
+/* ============================================= */
+/*               Base Styles                     */
+/* ============================================= */
+
 * {
     /* font-family: 'Gothic A1', sans-serif; */
     font-family: 'Work Sans', sans-serif;
 }
 
-/* .jumbotron .btn-lg {
-    background-color: rgb(15, 76, 129);
-    transition: background-color .2s ease-out;
+.container {
+    overflow: hidden;
 }
-
-.jumbotron .btn-lg:hover {
-    background-color: rgb(147, 169, 209);
-} */
 
 .jumbotron h1 {
     font-weight: 700;
+    animation-name: moveToLeft;
+    animation-duration: 1s;
 }
+
+.jumbotron h2 {
+    animation-name: moveToRight;
+    animation-duration: .8s;
+}
+
 
 .card-body .btn-secondary {
     font-size: .9em;
@@ -50,4 +57,60 @@
 
 .social-div a:hover {
     opacity: 1;
+}
+
+#about,
+#breakLine,
+#contact-container,
+#projects,
+#projects-container,
+#tech {
+    animation-name: moveUp;
+    animation-duration: 2s;
+}
+
+/* ============================================= */
+/*                 Keyframes                     */
+/* ============================================= */
+
+
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    60% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
