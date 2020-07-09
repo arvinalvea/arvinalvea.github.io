@@ -105,6 +105,25 @@
     animation-duration: 2s;
 }
 
+#arrow {
+    animation-name: popIn;
+    animation-duration: 1.5s;
+}
+
+/* ============================================= */
+/*                 SVG Style                     */
+/* ============================================= */
+
+svg {
+    display: block;
+    margin: 3em auto 0;
+    transition: transform .5s ease-out;
+    cursor: pointer;
+}
+
+svg:hover {
+    transform: scale(1.2);
+}
 
 /* ============================================= */
 /*                 Keyframes                     */
@@ -149,5 +168,21 @@
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+/* TESTING */
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 1;
+        scale(1);
     }
 }
