@@ -6,6 +6,26 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.cta-button {
+    border-radius: 5px;
+    border: 1px solid rgb(15, 76, 129);
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    transition: all .25s ease;
+    color: black;
+}
+
+.cta-button:hover {
+    background-color: rgb(15, 76, 129);
+    color: white;
+    transform: scale(1.06);
+}
+
 .container {
     overflow: hidden;
 }
@@ -21,15 +41,18 @@
     animation-duration: .8s;
 }
 
+.card-body .btn-primary {
+    font-size: .9em;
+}
 
 .card-body .btn-secondary {
     font-size: .9em;
-    background-color: rgb(15, 76, 129);
+    background-color: rgb(147, 169, 209);
     transition: background-color .2s ease-out;
 }
 
 .card-body .btn-secondary:hover {
-    background-color: rgb(147, 169, 209);
+    background-color: rgb(15, 76, 129);
 }
 
 .col-lg p {
@@ -58,14 +81,14 @@
     opacity: 1;
 }
 
-#contactBtn {
+/* #contactBtn {
     color: black;
     transition: all .4s ease-out;
 }
 
 #contactBtn:hover {
     color: rgb(147, 169, 209);
-}
+} */
 
 #about,
 #breakLine,
