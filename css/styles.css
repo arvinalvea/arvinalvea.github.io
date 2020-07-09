@@ -35,14 +35,15 @@
 }
 
 .jumbotron h1 {
+    font-size: 4.5rem;
     font-weight: 700;
-    /* font-size: 10vw; */
-    margin-top: 2em;
+    margin-top: 1em;
     animation-name: moveToLeft;
     animation-duration: 1s;
 }
 
 .jumbotron h4 {
+    font-size: 1.6rem;
     animation-name: moveToRight;
     animation-duration: .8s;
 }
@@ -182,3 +183,4 @@ svg:hover {
         transform: scale(1);
     }
 }
+
