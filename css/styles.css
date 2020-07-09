@@ -36,7 +36,8 @@
 
 .jumbotron h1 {
     font-weight: 700;
-    margin-top: 1.1em;
+    /* font-size: 10vw; */
+    margin-top: .9em;
     animation-name: moveToLeft;
     animation-duration: 1s;
 }
@@ -167,8 +168,6 @@ svg:hover {
         opacity: 1;
     }
 }
-
-/* TESTING */
 
 @keyframes popIn {
     0% {
