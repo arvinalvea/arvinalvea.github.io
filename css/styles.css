@@ -101,6 +101,12 @@
     animation-duration: 1.5s;
 }
 
+.jumbotron a {
+    display: block;
+    width: 25px;
+    margin: 0 auto;
+}
+
 /* ============================================= */
 /*                 SVG Style                     */
 /* ============================================= */
