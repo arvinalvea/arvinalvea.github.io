@@ -66,6 +66,10 @@
     font-size: 1.1em;
 }
 
+.hidden {
+    display: none;
+}
+
 #projects-container {
     border-radius: 10px;
 }
@@ -107,6 +111,17 @@
     display: block;
     width: 25px;
     margin: 0 auto;
+}
+
+#projects {
+    margin-top: 4.5em;
+    margin-bottom: 1.5em;
+}
+
+#projectBtn h5 {
+    display: block;
+    font-style: italic;
+    color: black;
 }
 
 /* ============================================= */
