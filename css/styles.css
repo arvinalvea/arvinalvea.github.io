@@ -6,6 +6,28 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.card-body .btn-primary {
+    font-size: .9em;
+}
+
+.card-body .btn-secondary {
+    font-size: .9em;
+    background-color: rgb(147, 169, 209);
+    transition: background-color .2s ease-out;
+}
+
+.card-body .btn-secondary:hover {
+    background-color: rgb(15, 76, 129);
+}
+
+.col-lg p {
+    font-size: 1.1em;
+}
+
+.container {
+    overflow: hidden;
+}
+
 .cta-button {
     border-radius: 5px;
     border: 1px solid rgb(15, 76, 129);
@@ -26,12 +48,18 @@
     transform: scale(1.06);
 }
 
-.container {
-    overflow: hidden;
+.hidden {
+    display: none;
 }
 
 .jumbotron {
     height: 100vh;
+}
+
+.jumbotron a {
+    display: block;
+    width: 25px;
+    margin: 0 auto;
 }
 
 .jumbotron h1 {
@@ -46,32 +74,6 @@
     font-size: 1.6rem;
     animation-name: moveToRight;
     animation-duration: .8s;
-}
-
-.card-body .btn-primary {
-    font-size: .9em;
-}
-
-.card-body .btn-secondary {
-    font-size: .9em;
-    background-color: rgb(147, 169, 209);
-    transition: background-color .2s ease-out;
-}
-
-.card-body .btn-secondary:hover {
-    background-color: rgb(15, 76, 129);
-}
-
-.col-lg p {
-    font-size: 1.1em;
-}
-
-.hidden {
-    display: none;
-}
-
-#projects-container {
-    border-radius: 10px;
 }
 
 .socials {
@@ -92,6 +94,9 @@
     opacity: 1;
 }
 
+
+/* ID Styles */
+
 #about,
 #breakLine,
 #contact-container,
@@ -107,15 +112,13 @@
     animation-duration: 1.5s;
 }
 
-.jumbotron a {
-    display: block;
-    width: 25px;
-    margin: 0 auto;
-}
-
 #projects {
     margin-top: 2em;
     margin-bottom: 1.5em;
+}
+
+#projects-container {
+    border-radius: 10px;
 }
 
 #projectBtn h5 {
@@ -123,6 +126,7 @@
     font-style: italic;
     color: black;
 }
+
 
 /* ============================================= */
 /*                 SVG Style                     */
