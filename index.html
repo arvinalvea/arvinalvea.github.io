@@ -1,297 +1,643 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/A.png">
-    <link href="css/styles.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/A.png" />
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Arvin Alvea</title>
   </head>
   <body>
+    <!-- jumbotron -->
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid" style="background-color: #fff;">
+        <h4 class="pt-1 font-weight-bolder">Arvin Alvea</h4>
+        <h1 class="display-4 pt-5 text-center">I build websites.</h1>
 
-      <!-- jumbotron -->
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid" style="background-color: #fff;">
-            <h4 class="pt-1 font-weight-bolder">Arvin Alvea</h4>
-            <h1 class="display-4 pt-5 text-center">I build websites.</h1>
-            
-            <a href="#about" class="text-decoration-none">
-                <svg width="2em" height="2em" viewBox="0 0 16 16" id="arrow" class="bi bi-arrow-down-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"/>
-                </svg>
-            </a>    
-            
+        <a href="#about" class="text-decoration-none">
+          <svg
+            width="2em"
+            height="2em"
+            viewBox="0 0 16 16"
+            id="arrow"
+            class="bi bi-arrow-down-square-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <hr class="breakLine" />
+    <!-- /jumbotron -->
+
+    <div class="container pt-1">
+      <!--  about  -->
+      <div class="row">
+        <div id="about" class="col-lg-6">
+          <h2 class="display-5 text-center my-5">About</h2>
+          <p>
+            Hi! I’m a front-end web developer based in Toronto, Canada. In 2018,
+            I graduated from Seneca College with a diploma in Electronic
+            Engineering. My diploma gave me a strong foundation and allowed me
+            the opportunity to change directions and become a self-taught web
+            developer.
+          </p>
+          <p>
+            COVID-19 shook up my world — for good and bad. I was laid off and
+            had a lot of time on my hands. I knew I wanted more for myself and
+            decided I would spend every day for the next 3 months learning code.
+          </p>
+          <p>
+            Before finding Team Treehouse, I didn’t think coding was a good fit
+            for me. Once I was introduced to Team Treehouse and started up with
+            the projects I quickly fell in love with coding and front-end web
+            development.
+          </p>
+        </div>
+
+        <div id="tech" class="col-lg-6">
+          <h2 class="display-5 my-5 text-center">Technologies</h2>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>HTML</strong>
+            </li>
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>CSS</strong>
+            </li>
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>Sass</strong>
+            </li>
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>JavaScript</strong>
+            </li>
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>jQuery</strong>
+            </li>
+            <li class="list-group-item list-group-item-action text-center">
+              <strong>Bootstrap</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div id="projectBtn" class="col-lg-12">
+          <a href="#projects" class="text-decoration-none">
+            <h5 class="display-5 text-center mt-5">See Projects</h5>
+            <svg
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 16 16"
+              class="bi bi-arrow-down mt-1 mb-5"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
+          </a>
         </div>
       </div>
-      <hr class="breakLine">
-      <!-- /jumbotron -->
+      <!-- /about -->
+      <hr />
 
-      <div class="container pt-1">
-        <!--  about  -->
-        <div class="row">
-          <div id="about" class="col-lg-6">
-            <h2 class="display-5 text-center my-5">About</h2>
-            <p>Hi! I’m a front-end web developer based in Toronto, Canada. In 2018, I graduated from Seneca College with a diploma in Electronic Engineering. My diploma gave me a strong foundation and allowed me the opportunity to change directions and become a self-taught web developer. </p>
-            <p>COVID-19 shook up my world — for good and bad. I was laid off and had a lot of time on my hands. I knew I wanted more for myself and decided I would spend every day for the next 3 months learning code.</p>
-            <p>Before finding Team Treehouse, I didn’t think coding was a good fit for me. Once I was introduced to Team Treehouse and started up with the projects I quickly fell in love with coding and front-end web development.</p>
-          </div>
-          
-           <div id="tech" class="col-lg-6">
-            <h2 class="display-5 my-5 text-center">Technologies</h2>
-             <ul class="list-group">
-                <li class="list-group-item list-group-item-action text-center"><strong>HTML</strong></li>
-                <li class="list-group-item list-group-item-action text-center"><strong>CSS</strong></li>
-                <li class="list-group-item list-group-item-action text-center"><strong>Sass</strong></li>
-                <li class="list-group-item list-group-item-action text-center"><strong>JavaScript</strong></li>
-                <li class="list-group-item list-group-item-action text-center"><strong>jQuery</strong></li>
-                <li class="list-group-item list-group-item-action text-center"><strong>Bootstrap</strong></li>
-             </ul>
-          </div>
+      <!-- projects -->
+      <h2 id="projects" class="container display-5 text-center">Projects</h2>
+      <div
+        id="projects-container"
+        class="container"
+        style="background-image: url(img/aboutMe-photo.jpeg);"
+      >
+        <div class="row container pt-4">
+          <div class="col-md-12">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="img/wellington-thumbnail.png"
+                alt="Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Wellington Veterinary Hospital Landing Page
+                </h5>
+                <p class="card-text">
+                  Created a landing page for a local business using HTML, CSS
+                  and Bootstrap.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/Wellington-Vet/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
 
-          <div id="projectBtn" class="col-lg-12">
-            <a href="#projects" class="text-decoration-none">
-                <h5 class="display-5 text-center mt-5">See Projects</h5>
-                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-down mt-1 mb-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
-                    <path fill-rule="evenodd" d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"/>
-                </svg>
-            </a>
-          </div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#wellington"
+                >
+                  More Info
+                </button>
 
-        </div> <!-- /about -->
-        <hr>
-
-        <!-- projects -->
-        <h2 id="projects" class="container display-5 text-center">Projects</h2>
-        <div id="projects-container" class="container" style="background-image: url(img/aboutMe-photo.jpeg);">
-            <div class="row container pt-4">
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="img/project8.png" alt="Project">
-                    <div class="card-body">
-                    <h5 class="card-title">Employee Directory Page</h5>
-                    <p class="card-text">Fetched data from API so that 12 employees are listed in a grid.</p>
-                    <a class="text-decoration-none btn btn-secondary" href="https://arvinalvea.github.io/techdegree-project8/" target="_blank">
-                        View Project
-                    </a>
-
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project8">
-                            More Info
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="wellington"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="wellingtonLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="wellingtonLabel">
+                          Wellington Veterinary Hospital Landing Page
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
                         </button>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="project8Label" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="project8Label">Employee Directory Page</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img class="card-img-top mb-3" src="img/project8.png" alt="Project">
-                                    <p>HTML and CSS was used to create the design of the web app.<br>
-                                        <br>Used the fetch() method to receive data from a random user API. Parsed the data into 
-                                        JavaScripts objects to be able to access each property per user.<br>
-                                    <br>Created modal windows that displayed extra information of the selected user.<br>
-                                    <br>Layout is responsive to small, medium and large devices.
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/wellington-thumbnail.png"
+                          alt="Project"
+                        />
+                        <p>
+                          Created a landing page to the owner's standards using
+                          HTML, CSS and Bootstrap.<br />
+                          <br />Photographed the staff photos used in the
+                          website design.<br />
+                          <br />Created with a mobile-first responsive
+                          design.<br />
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="img/project7.png" alt="Project">
-                    <div class="card-body">
-                    <h5 class="card-title">WebAnalytics Dashboard Page</h5>
-                    <p class="card-text">Built a web dashboard with JavaScript-driven charts and graphs. </p>
-                    <a class="text-decoration-none btn btn-secondary" href="https://arvinalvea.github.io/techdegree-project7/" target="_blank">
-                        View Project
-                    </a>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="img/project8.png" alt="Project" />
+              <div class="card-body">
+                <h5 class="card-title">Employee Directory Page</h5>
+                <p class="card-text">
+                  Fetched data from API so that 12 employees are listed in a
+                  grid.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/techdegree-project8/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
 
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project7">
-                        More Info
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="project7Label" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="project7Label">WebAnalytics Dashboard Page</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="card-img-top mb-3" src="img/project7.png" alt="Project">
-                                <p>HTML and CSS was used to create the design of the web app.<br>
-                                    <br>Implemented CSS Grid to create a mobile-first design that is responsive to all screen sizes.<br>
-                                    <br>Created an alert banner notifying the user of notifications that they can close.<br>
-                                    <br>Chart.js was utilized to display the chart and graphs.<br>
-                                    <br>Created a messaging widget and used JavaScript to display errors if message form was not properly filled.
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#project8"
+                >
+                  More Info
+                </button>
 
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="project8"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="project8Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project8Label">
+                          Employee Directory Page
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/project8.png"
+                          alt="Project"
+                        />
+                        <p>
+                          HTML and CSS was used to create the design of the web
+                          app.<br />
+                          <br />Used the fetch() method to receive data from a
+                          random user API. Parsed the data into JavaScripts
+                          objects to be able to access each property per
+                          user.<br />
+                          <br />Created modal windows that displayed extra
+                          information of the selected user.<br />
+                          <br />Layout is responsive to small, medium and large
+                          devices.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="img/project6.png" alt="Project">
-                    <div class="card-body">
-                    <h5 class="card-title">Game Show App</h5>
-                    <p class="card-text">Browser version of a word guessing game. Used JavaScript to cycle through random phrases.</p>
-                    <a class="text-decoration-none btn btn-secondary" href="https://arvinalvea.github.io/techdegree-project6/" target="_blank">
-                        View Project
-                    </a>
+          </div>
 
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project6">
-                        More Info
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="project6Label">Game Show App</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="card-img-top mb-3" src="img/project6.png" alt="Project">
-                                <p>Created an array of phrases in JavaScript to be accessed for random selection of phrase for game.<br>
-                                    <br>Utilized an event listener to track when a letter is clicked and compare if the selected letter is in phrase.<br>
-                                    <br>Lives are set and tracked at game initilization. Screen is reset and cleared once a game ends.
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="img/project7.png" alt="Project" />
+              <div class="card-body">
+                <h5 class="card-title">WebAnalytics Dashboard Page</h5>
+                <p class="card-text">
+                  Built a web dashboard with JavaScript-driven charts and
+                  graphs.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/techdegree-project7/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
 
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#project7"
+                >
+                  More Info
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="project7"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="project7Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project7Label">
+                          WebAnalytics Dashboard Page
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/project7.png"
+                          alt="Project"
+                        />
+                        <p>
+                          HTML and CSS was used to create the design of the web
+                          app.<br />
+                          <br />Implemented CSS Grid to create a mobile-first
+                          design that is responsive to all screen sizes.<br />
+                          <br />Created an alert banner notifying the user of
+                          notifications that they can close.<br />
+                          <br />Chart.js was utilized to display the chart and
+                          graphs.<br />
+                          <br />Created a messaging widget and used JavaScript
+                          to display errors if message form was not properly
+                          filled.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            
-            <div class="col-md-6">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="img/project5.png" alt="Project">
-                    <div class="card-body">
-                    <h5 class="card-title">Interactive Photo Gallery</h5>
-                    <p class="card-text">Used HTML, CSS and JavaScript to create an interactive, searchable gallery of photos.</p>
-                    <a class="text-decoration-none btn btn-secondary" href="https://arvinalvea.github.io/techdegree-project5/" target="_blank">
-                        View Project
-                    </a>
+          </div>
 
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project5">
-                        More Info
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="project5Label" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="project5Label">Interactive Photo Gallery</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="card-img-top mb-3" src="img/project5.png" alt="Project">
-                                <p>Includes a responsive mobile-first design for the gallery page that adjusts for a mobile-friendly experience.<br>
-                                    <br>Implemented a jQuery Lightbox plugin to display images when clicked.<br>
-                                    <br>Programmed a search function that displays only the photos that match the user input.<br>
-                                    <br>"Sorry, no photos found!" displayed if there is no match.
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="img/project6.png" alt="Project" />
+              <div class="card-body">
+                <h5 class="card-title">Game Show App</h5>
+                <p class="card-text">
+                  Browser version of a word guessing game. Used JavaScript to
+                  cycle through random phrases.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/techdegree-project6/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
 
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#project6"
+                >
+                  More Info
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="project6"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="project6Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project6Label">
+                          Game Show App
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/project6.png"
+                          alt="Project"
+                        />
+                        <p>
+                          Created an array of phrases in JavaScript to be
+                          accessed for random selection of phrase for game.<br />
+                          <br />Utilized an event listener to track when a
+                          letter is clicked and compare if the selected letter
+                          is in phrase.<br />
+                          <br />Lives are set and tracked at game initilization.
+                          Screen is reset and cleared once a game ends.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="img/project5.png" alt="Project" />
+              <div class="card-body">
+                <h5 class="card-title">Interactive Photo Gallery</h5>
+                <p class="card-text">
+                  Used HTML, CSS and JavaScript to create an interactive,
+                  searchable gallery of photos.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/techdegree-project5/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#project5"
+                >
+                  More Info
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="project5"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="project5Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project5Label">
+                          Interactive Photo Gallery
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/project5.png"
+                          alt="Project"
+                        />
+                        <p>
+                          Includes a responsive mobile-first design for the
+                          gallery page that adjusts for a mobile-friendly
+                          experience.<br />
+                          <br />Implemented a jQuery Lightbox plugin to display
+                          images when clicked.<br />
+                          <br />Programmed a search function that displays only
+                          the photos that match the user input.<br />
+                          <br />"Sorry, no photos found!" displayed if there is
+                          no match.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- /projects -->
+      </div>
+      <!-- /projects -->
 
-         <!-- contact -->
-         <hr class="breakLine">
-         <div id="contact-container" class="row py-4">
-           <div class="col-md text-center">
-            <a href="mailto:arvinalvea@gmail.com" class="cta-button text-decoration-none">
-                Email Me 
-                <span class="arrow-right">→</span>
+      <!-- contact -->
+      <hr class="breakLine" />
+      <div id="contact-container" class="row py-4">
+        <div class="col-md text-center">
+          <a
+            href="mailto:arvinalvea@gmail.com"
+            class="cta-button text-decoration-none"
+          >
+            Email Me
+            <span class="arrow-right">→</span>
+          </a>
+
+          <p>Feel free to get in touch by any means of communication.</p>
+          <div class="social-div">
+            <a
+              class="text-decoration-none"
+              href="https://www.linkedin.com/in/arvinalvea/"
+              target="_blank"
+              id="linkedIn"
+            >
+              <img src="img/linkedIn.png" class="socials" alt="LinkedIn logo" />
             </a>
-
-             <p>Feel free to get in touch by any means of communication.</p>
-             <div class="social-div">
-                <a class="text-decoration-none" href="https://www.linkedin.com/in/arvinalvea/" target="_blank" id="linkedIn">
-                    <img src="img/linkedIn.png" class="socials" alt="LinkedIn logo">
-                </a>
-                <a class="text-decoration-none" href="https://github.com/arvinalvea" target="_blank" id="github">
-                    <img src="img/github.png" class="socials" alt="GitHub logo">
-                </a>
-                <a class="text-decoration-none" href="https://www.instagram.com/arvinalvea/" target="_blank" id="instagram">
-                    <img src="img/instagram.png" class="socials" alt="Instagram logo"><br>
-                </a>
-            </div>
-           </div>
-        <!-- /contact  -->
-              
-             
-           </div>
-         </div>
-         <hr>
-         <!-- /contact form -->
-
-         <div id="backToTop" class="col-lg-12">
-            <a href="#about" class="text-decoration-none">
-                <p class="text-center mt-2">Back To Top</p>
+            <a
+              class="text-decoration-none"
+              href="https://github.com/arvinalvea"
+              target="_blank"
+              id="github"
+            >
+              <img src="img/github.png" class="socials" alt="GitHub logo" />
+            </a>
+            <a
+              class="text-decoration-none"
+              href="https://www.instagram.com/arvinalvea/"
+              target="_blank"
+              id="instagram"
+            >
+              <img
+                src="img/instagram.png"
+                class="socials"
+                alt="Instagram logo"
+              /><br />
             </a>
           </div>
+        </div>
+        <!-- /contact  -->
+      </div>
+    </div>
+    <hr />
+    <!-- /contact form -->
+
+    <div id="backToTop" class="col-lg-12">
+      <a href="#about" class="text-decoration-none">
+        <p class="text-center mt-2">Back To Top</p>
+      </a>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/app.js"></script>
   </body>
 </html>
