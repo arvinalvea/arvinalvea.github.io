@@ -134,7 +134,96 @@
         style="background-image: url(img/aboutMe-photo.jpeg);"
       >
         <div class="row container pt-4">
-          <div class="col-md-12">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="img/acm-thumbnail.png"
+                alt="Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ACM Construction Group Landing Page
+                </h5>
+                <p class="card-text">
+                  Created a landing page for a local construction company using
+                  HTML, CSS and JavaScript.
+                </p>
+                <a
+                  class="text-decoration-none btn btn-secondary"
+                  href="https://arvinalvea.github.io/ACM-Landing/"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#acm"
+                >
+                  More Info
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="acm"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="acmLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="acmLabel">
+                          ACM Construction Group Landing Page
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="card-img-top mb-3"
+                          src="img/acm-thumbnail.png"
+                          alt="Project"
+                        />
+                        <p>
+                          Created a landing page using HTML, CSS and
+                          JavaScript.<br />
+
+                          <br />Created with a mobile-first responsive
+                          design.<br /><br />
+                          Currently adding a image pre-loading feature to speed
+                          up load times for image heavy webpage.<br />
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
             <div class="card mb-3">
               <img
                 class="card-img-top"
@@ -221,6 +310,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-6">
             <div class="card mb-3">
               <img class="card-img-top" src="img/project8.png" alt="Project" />
