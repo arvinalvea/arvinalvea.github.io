@@ -3,209 +3,205 @@
 /* ============================================= */
 
 * {
-    font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .card-body .btn-primary {
-    font-size: .9em;
+  font-size: 0.9em;
 }
 
 .card-body .btn-secondary {
-    font-size: .9em;
-    background-color: rgb(147, 169, 209);
-    transition: background-color .2s ease-out;
+  font-size: 0.9em;
+  background-color: rgb(147, 169, 209);
+  transition: background-color 0.2s ease-out;
 }
 
 .card-body .btn-secondary:hover {
-    background-color: rgb(15, 76, 129);
+  background-color: rgb(15, 76, 129);
 }
 
 .col-lg p {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .cta-button {
-    border-radius: 5px;
-    border: 1px solid rgb(15, 76, 129);
-    padding: 1em 1.5em;
-    display: inline-block;
-    font-size: 1.2em;
-    font-style: italic;
-    margin: 0 1em;
-    margin-bottom: 1em;
-    min-width: 10em;
-    transition: all .25s ease;
-    color: black;
+  border-radius: 5px;
+  border: 1px solid rgb(15, 76, 129);
+  padding: 1em 1.5em;
+  display: inline-block;
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 10em;
+  transition: all 0.25s ease;
+  color: black;
 }
 
 .cta-button:hover {
-    background-color: rgb(15, 76, 129);
-    color: white;
-    transform: scale(1.06);
+  background-color: rgb(15, 76, 129);
+  color: white;
+  transform: scale(1.06);
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .jumbotron {
-    height: 100vh;
+  height: 100vh;
 }
 
 .jumbotron a {
-    display: block;
-    width: 25px;
-    margin: 0 auto;
+  display: block;
+  width: 25px;
+  margin: 0 auto;
 }
 
 .jumbotron h1 {
-    font-size: 4.5rem;
-    font-weight: 700;
-    margin-top: 1em;
-    animation-name: moveToLeft;
-    animation-duration: 1s;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 1em;
+  animation-name: moveToLeft;
+  animation-duration: 1s;
 }
 
 .jumbotron h4 {
-    font-size: 1.6rem;
-    animation-name: moveToRight;
-    animation-duration: .8s;
+  font-size: 1.6rem;
+  animation-name: moveToRight;
+  animation-duration: 0.8s;
 }
 
 .socials {
-    width: 29px;
-    height: 28px;
-    margin-right: 10px;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
 }
 
 .social-div a {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .social-div:hover a {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .social-div a:hover {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 /* ID Styles */
 
 #about,
 #breakLine,
 #contact-container,
-#projects,
-#projects-container,
+.projects,
+.projects-container,
 #tech {
-    animation-name: moveUp;
-    animation-duration: 2s;
+  animation-name: moveUp;
+  animation-duration: 2s;
 }
 
 #arrow {
-    animation-name: popIn;
-    animation-duration: 1.5s;
+  animation-name: popIn;
+  animation-duration: 1.5s;
 }
 
-#projects {
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+.projects {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
-#projects-container {
-    border-radius: 10px;
+.projects-container {
+  border-radius: 10px;
 }
 
 #projectBtn h5 {
-    display: block;
-    font-style: italic;
-    color: black;
-    transition: all .5s ease;
+  display: block;
+  font-style: italic;
+  color: black;
+  transition: all 0.5s ease;
 }
 
 #projectBtn:hover h5 {
-    transform: scale(1.1);
-    color: rgb(147, 169, 209);
+  transform: scale(1.1);
+  color: rgb(147, 169, 209);
 }
-
 
 /* ============================================= */
 /*                 SVG Style                     */
 /* ============================================= */
 
 svg {
-    display: block;
-    margin: 3em auto 0;
-    transition: transform .5s ease-out;
-    cursor: pointer;
+  display: block;
+  margin: 3em auto 0;
+  transition: transform 0.5s ease-out;
+  cursor: pointer;
 }
 
 svg:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* ============================================= */
 /*                 Keyframes                     */
 /* ============================================= */
 
-
 @keyframes moveToLeft {
-    0% {
-        transform: translateX(120px);
-        opacity: 0;
-    }
-    60% {
-        transform: translateX(120px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes moveToRight {
-    0% {
-        transform: translateX(-120px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes moveUp {
-    0% {
-        transform: translateY(-120px);
-        opacity: 0;
-    }
-    60% {
-        transform: translateY(-120px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes popIn {
-    0% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 0;
-        transform: scale(2);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
-
